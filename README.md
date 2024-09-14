@@ -54,18 +54,19 @@ This will create an optimized build in the build folder.
 
 Project Structure
 src/
-|-- components/
-|   |-- Todo/
-|   |   |-- AddTodo.jsx       # Component to add a new task
-|   |   |-- TodoItem.jsx      # Individual task item (edit, delete, toggle)
-|   |   |-- TodoList.jsx      # List of tasks (active and completed)
-|   |   |-- EditTodoModal.jsx # Modal for editing a task
-|-- context/
-|   |-- TodoContext.jsx       # Context to manage task state and actions
-|-- theme.js                  # MUI theme configuration
-|-- App.jsx                   # Main app component and routing
-|-- index.js                  # Entry point of the app
-|-- styles.css                # Global styles for dark theme and responsiveness
+components/
+ Todo/
+  AddTodo.jsx       # Component to add a new task
+  TodoItem.jsx      # Individual task item (edit, delete, toggle)
+  TodoList.jsx      # List of tasks (active and completed)
+
+EditTodoModal.jsx # Modal for editing a task
+context
+ TodoContext.jsx       # Context to manage task state and actions
+  theme.js                  # MUI theme configuration
+    App.jsx                   # Main app component and routing
+    index.js                  # Entry point of the app
+      styles.css                # Global styles for dark theme and responsiveness
 
 
 
