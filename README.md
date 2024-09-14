@@ -68,6 +68,7 @@ src/
 |-- styles.css                # Global styles for dark theme and responsiveness
 
 
+
 Features Explained
 
 1. Display Todo List
