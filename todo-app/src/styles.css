@@ -1,0 +1,37 @@
+/* src/styles.css */
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(135deg, #2c3e50, #34495e);
+  color: #ecf0f1;
+}
+
+h4 {
+  color: #ecf0f1;
+}
+
+.MuiPaper-root {
+  border-radius: 10px;
+  background-color: #3a3f44;
+}
+
+button {
+  cursor: pointer;
+}
+
+.left-align {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.button-left {
+  width: 50%;
+  text-align: left;
+}
+
+.container-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
